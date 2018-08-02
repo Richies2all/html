@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml-transitional.dtd">
+<html>
+<head> 
+	
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+	.body{margin-left: 3px;
+	}
+	</style>
+</head>
+<title>form</title>
+<body>
+	<div class="container">
+	
+		<h1>Register Here </h1>
+	<form <!-- "Needs this to activate submit button" action="dosomething" method="post"-->
+		Username:  <input type="text" name="uname"/>
+		<p><br/>
+		Password:  <input type="password" name="pword"/>
+		</p><br/>
+		<p>
+		Re-type password:  <input type="password" name="pword"/>
+		</p>
+				
+		Male: <input type="radio" name="sex" value="male"/>
+		Female: <input type="radio" name="sex" value="female"/>
+		<br/>
+		
+		<p> Select Purpose: </p>
+		Buy <input type="checkbox" name="item" value="shoe"/>
+		Sell <input type="checkbox" name="item" value="bag"/>
+		Promote <input type="checkbox" name="item" value="shirt"/>
+		Visiting <input type="checkbox" name="item" value="glasses"/>
+		<br/>
+		Security questions: What have u done today?
+		<select name="activities">
+			<option value="play">Play Guitar</option>
+			<option value="site">Browse sites</option>
+			<option value="school">Call school</option>
+			<option value="your">Update webpage page</option>
+			<option value="you">Reading</option>
+		
+		</select>
+		<br/>
+		
+		
+		<p> Submit a file </p>
+		<br/>
+		<input type="file" name="richfile"/>
+		<br/>
+		
+		Tell me about yourself: <textarea name="bio" row="8" cols="40"> 
+		Type here
+		</textarea>
+		<p>
+		<input type="submit" value="Register" style="margin-left:450px;"/></p>
+		
+	
+	</form>
+</body>
+</html>
+
+<!-- to launch the website, go to google.com, search cheap web hosting page online
+and look for the cheapest. create account, pick ftp, transfer ur work file
+to the server inside the public html folder. make sure ur file is named index.html -->
+
+
+
+
+
+
